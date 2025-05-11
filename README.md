@@ -5,6 +5,12 @@ Geometric modeling serves as a cornerstone of industrial software, facilitating 
 
 ---
 
+## 📖 Citation 
+
+If you use this code, please cite the following article: Published in ***The Visual Computer***.
+
+---
+
 ## 🚀 Key Features
 - **Memory Efficiency**: Gensim's streaming I/O for large corpora
 - **Adaptive Priors**: Asymmetric Dirichlet distributions (`α`, `β` in `auto` mode)
@@ -70,10 +76,6 @@ The optimal topic count was determined through cross-validation using:
 **Original Dataset**  
 > "The dataset is not hosted publicly due to GitHub's file size restrictions. Researchers may request access for reproducibility purposes by contacting the corresponding author."
 
----
 
-## 📖 Citation 
-
-If you use this code, please cite the following article: Published in ***The Visual Computer***.
 
 
