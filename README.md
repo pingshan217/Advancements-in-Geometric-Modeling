@@ -1,13 +1,28 @@
-# Advancements in Geometric Modeling: An Exploratory Analysis of Patent Trends Using Latent Dirichlet Allocation
+# Evolutionary Trajectories in Geometric Modeling: Unveiling Patent Trends via Latent Dirichlet Allocation
 
 **Abstract**  
-Geometric modeling stands as a cornerstone of industrial software, enabling reduced development and production costs, accelerated market entry, and enhanced functionality and aesthetics in the manufacturing sector.  This study leverages Latent Dirichlet Allocation (LDA) topic modeling to analyze the evolution of geometric modeling techniques from 1976 to 2024, as evident in patent literature.  Eight pivotal technological topics are identified and grouped into five overarching themes: surface modeling, parametric modeling, intelligent CAD, structural modeling, and solid modeling.  Our findings reveal a progression from traditional solid modeling to advanced forms such as parametric and surface modeling, culminating in sophisticated structural modeling and intelligent CAD.  Here, we show that parametric modeling emerged as a dominant technology in the 1990s, followed by surface modeling in the 2000s, and recent advancements in intelligent CAD post-2010.  This study provides insights into the technological landscape of geometric modeling, aiding policymakers and industry stakeholders in optimizing patent strategies and driving innovation.
+Geometric modeling serves as a cornerstone of industrial software, facilitating reduced development costs, accelerated market entry, and enhanced functionality in manufacturing. This study leverages Latent Dirichlet Allocation (LDA) to analyze the evolution of geometric modeling techniques from 1976 to 2024, as evidenced in patent literature. Through LDA, we identify eight pivotal technological topics clustered into five overarching themes: surface modeling, parametric modeling, intelligent CAD, structural modeling, and solid modeling. Our findings reveal a progression from traditional solid modeling to advanced forms such as parametric and surface modeling, culminating in sophisticated structural modeling and intelligent CAD. Parametric modeling emerged as a dominant technology in the 1990s, followed by surface modeling in the 2000s, and recent advancements in intelligent CAD post-2010. This study provides insights into the technological landscape of geometric modeling, offering valuable guidance for policymakers and industry stakeholders in optimizing patent strategies and driving innovation.
 
 ---
 
-## 📂 Data Availability
-**Original Dataset**  
-> "The dataset is not hosted publicly due to GitHub's file size restrictions. Researchers may request access for reproducibility purposes by contacting the corresponding author."
+## 🚀 Key Features
+- **Memory Efficiency**: Gensim's streaming I/O for large corpora
+- **Adaptive Priors**: Asymmetric Dirichlet distributions (`α`, `β` in `auto` mode)
+- **Multi-Metric Validation**: 
+  - Perplexity analysis
+  - UMass coherence scores
+  - PyLDAvis diagnostics
+- **Optimal Granularity**: Balance between complexity and interpretability
+
+---
+
+## ⚙️ Core Hyperparameters
+| Parameter          | Configuration                  |
+|--------------------|--------------------------------|
+| Training Iterations| 50 cycles (ensured convergence)|
+| α (Document-Topic) | Asymmetric Dirichlet (`auto`)  |
+| β (Topic-Word)     | Asymmetric Dirichlet (`auto`)  |
+| Learning Method    | Online Variational Bayes       |
 
 ---
 
@@ -50,4 +65,15 @@ The optimal topic count was determined through cross-validation using:
 - Lexical specificity metrics
 
 ---
+
+## 📂 Data Availability
+**Original Dataset**  
+> "The dataset is not hosted publicly due to GitHub's file size restrictions. Researchers may request access for reproducibility purposes by contacting the corresponding author."
+
+---
+
+## 📖 Citation 
+
+If you use this code, please cite the following article: Published in ***The Visual Computer***.
+
 
